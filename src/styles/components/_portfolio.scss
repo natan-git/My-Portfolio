@@ -1,0 +1,47 @@
+.portfolio {
+  padding-top: 120px;
+  @include for-mobile-layout {
+    padding-top: 0;
+    text-align: center;
+   }
+}
+
+.portfolio-list {
+  margin-top: 39px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(276px, 1fr));
+  grid-gap: 20px;
+}
+
+.portfolioPreview {
+  transition: .5s opacity;
+  opacity: 0;
+  cursor: pointer;
+  max-height: 341px;
+  .info {
+    transition: .6s visibility;
+    visibility: hidden;
+    background-color: black;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: $clr6;
+    text-align: center;
+    opacity: 0.8;
+    padding:0 10px;
+    h4{
+        font-size: rem(25px);
+        text-decoration: underline;
+        text-transform: uppercase;
+    }
+  }
+  &:hover {
+    .info {
+      visibility: visible;
+    }
+  }
+}

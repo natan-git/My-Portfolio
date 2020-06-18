@@ -1,0 +1,59 @@
+.footer{
+    margin-top: 89px;
+    background-color: $clr1;
+    height: 103px;
+    color:$clr6;
+    @include for-mobile-layout {
+        height: 230px;
+       }
+  &>*{
+      height: 100%;
+      @include for-mobile-layout {
+       flex-direction: column;
+       padding:30px 0;
+      }
+  }
+    .circule{
+        cursor:pointer;
+        border-radius: 999px;
+        border:1px solid $clr6;
+        width: 36px;
+        height: 36px;
+        &:hover{
+            transition: .6s all;
+            background-color: $clr6;
+            &>*{
+              color: $clr1;
+            }
+        }
+
+    }
+    
+}
+
+.iconList{
+    @include for-mobile-layout {
+        order:3;
+      }
+}
+
+.iconPreview{
+    margin-right: 11px;
+    transition: .6s all;
+  &:hover{
+      background-color: $clr6;
+      .icon-codewars{
+        color: #ad2c27;
+      }
+      .icon-facebook{
+          color:#4267B2;
+      }
+      .icon-linkedin2{
+          color:#2867B2;
+      }
+      .icon-git{
+          color:#24292e;
+      }
+  }
+
+}
