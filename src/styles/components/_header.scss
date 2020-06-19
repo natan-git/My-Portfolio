@@ -85,7 +85,7 @@
     font-size: rem(46px);
     font-weight: 700;
     line-height: 32px;
-    text-transform: uppercase;
+    // text-transform: uppercase;
     @include for-mobile-layout {
       line-height: 50px;
     }
@@ -115,14 +115,10 @@
         margin-bottom: 30px;
       }
     }
-    .hire-me {
-      box-shadow: -1px 10px 18px rgba(0, 0, 0, 0.15);
-      background-color: $clr1;
-      color: $clr6;
-    }
     .explore-more {
-      box-shadow: -0.1px 0.2px 0.2px $clr1;
-      background-color: $clr6;
+      // box-shadow: -0.1px 0.2px 0.2px $clr1;
+      background-color: $clr3;
+      color: $clr6;
     }
   }
 }

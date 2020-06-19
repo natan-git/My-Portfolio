@@ -27,10 +27,9 @@ export default class Header extends Component {
                         <Navbar />
                         <div className="box">
                             <div className="square"></div>
-                            <h1>Natn yagodayev</h1>
+                            <h1>Natan Yagodayev</h1>
                             <h3>Full Stack Developer</h3>
                             <div className="buttons">
-                                <button onClick={this.move.bind(null,'contact')} className="hire-me">hire me</button>
                                 <button onClick={this.move.bind(null,'about')} className="explore-more">explore more</button>
                             </div>
                         </div>

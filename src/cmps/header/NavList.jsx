@@ -3,12 +3,12 @@ import Elevator from 'elevator.js'
 
 import eventBusService from "../../services/eventBusService";
 import NavPreview from './NavPreview';
-// import Logo from '../../imgs/logo.png'
+import Logo from '../../imgs/logo.svg'
 
 export default class NavList extends Component {
     eventKiller = null;
     state = {
-        links: ['home', 'about', 'skills', 'service', 'portfolio', 'contact'],
+        links: ['home', 'about', 'skills', 'service', 'portfolio'],
         currClicked: 'home',
         currClickedMode: true
     }
@@ -51,7 +51,7 @@ export default class NavList extends Component {
                         link={link}
                         move={this.move} />
                 })}
-                {/* <img className="logo" src={Logo} alt={Logo}/> */}
+                <img className="logo" src={Logo} alt={Logo}/>
             </ul>
         )
     }

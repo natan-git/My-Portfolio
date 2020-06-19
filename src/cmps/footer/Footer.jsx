@@ -7,20 +7,16 @@ export default class Footer extends Component {
     state = {
         icons: [
             {
-                name: 'icon-codewars',
-                link: 'https://www.codewars.com/users/giladberg'
-            },
-            {
                 name: 'icon-facebook',
-                link: 'https://www.facebook.com/gilad.bergmann'
+                link: 'https://www.facebook.com/natan.yagodayv/'
             },
             {
                 name: 'icon-linkedin2',
-                link: 'https://www.linkedin.com/in/gilad-bergmann/'
+                link: 'https://www.linkedin.com/in/natan-yagodayv/'
             },
             {
                 name: 'icon-git',
-                link: 'https://github.com/giladberg'
+                link: 'https://github.com/natan-git'
             }
         ]
     }

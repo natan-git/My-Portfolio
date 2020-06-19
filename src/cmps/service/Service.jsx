@@ -11,12 +11,12 @@ export default class Service extends Component {
         services: [
             {
                 title: 'Front-end',
-                info: 'As a javascript developer, I have experience in HTML5 and CSS3 techniques. working with react or more advanced javascript MVC frameworks such as angular',
+                info: 'As a javascript developer, I have experience in HTML5 and CSS3 techniques. working with react or more advanced javascript MVC frameworks such as VueJS',
                 img: frontend
             },
             {
                 title: 'Back-end',
-                info: "Utilising node.js frameworks such as Express, I've written services including REST APIs with connecting to data base such as mongodb, mysql. also working with socket.io and with new technologies of the server side.",
+                info: "Utilising node.js frameworks such as Express, I've written services including REST APIs with connecting to data base such as mongodb. also working with socket.io and with new technologies of the server side.",
                 img: backend
             }
         ]

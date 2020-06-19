@@ -1,5 +1,5 @@
 .about {
-  padding-top: 120px;
+  padding-top: 80px;
   p {
     margin-top: 39px;
     max-width: 543px;
@@ -8,12 +8,13 @@
     line-height: 26px;
     text-align: center;
   }
- 
+
   a {
     margin-top: 28px;
     box-shadow: -1px 10px 18px rgba(0, 0, 0, 0.15);
-    background-color: $clr1;
+    background-color: $clr3;
     color: $clr6;
+    border-radius: 3px;
     font-size: rem(16px);
     font-weight: 500;
     line-height: 32px;
@@ -24,8 +25,19 @@
     &:hover {
       transform: translateY(-1px);
       box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.12);
-      animation: buttonEffect 0.3s ;
-     
+      animation: buttonEffect 0.3s;
     }
   }
+
+  .natan-hero {
+    width: 23%;
+    margin-bottom: 2rem;
+    border: 2px solid rgb(54, 54, 54);
+    border-radius: 100%;
+    @include for-mobile-layout {
+      width: 60%;
+    }
+  }
+
+  
 }
